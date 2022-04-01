@@ -1,0 +1,20 @@
+create schema efarming;
+
+use efarming;
+
+CREATE TABLE `efarming`.`profile` (
+  `sno` INT NULL AUTO_INCREMENT,
+  `name` VARCHAR(45) NULL,
+  `gender` VARCHAR(45) NULL,
+  `dateofbirth` VARCHAR(45) NULL,
+  `address` VARCHAR(45) NULL,
+  `pincode` VARCHAR(45) NULL,
+  `state` VARCHAR(45) NULL,
+  `district` VARCHAR(45) NULL,
+  `phno` VARCHAR(45) NULL,
+  `emailid` VARCHAR(45) NULL,
+  `password` VARCHAR(45) NULL,
+  `type` VARCHAR(45) NULL);
+
+INSERT INTO efarming.profile values(1,"name","gender","1998-10-07","address",
++"pincode","state","district","phno","emailid","password","type");
